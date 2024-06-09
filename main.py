@@ -1,6 +1,6 @@
-import microbit
+# import microbit
 
-microbit.radio.set_group(1)      # the radio frequency we will be using, leave on 1
+radio.set_group(1)      # the radio frequency we will be using, leave on 1
 myID = 4               # The ID # given to you by the teacher
 signalStrength = -999   # keeps track of the signal strength to let you know when you dont have a signal anymore
 hasSignal = False       # this flag will be true when you are receiving a signal
