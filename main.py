@@ -53,5 +53,5 @@ def on_every_interval():
 loops.every_interval(1000, on_every_interval)
 
 def on_forever():
-    DrawScreen()
+    drawScreen()
 basic.forever(on_forever)
