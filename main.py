@@ -28,6 +28,7 @@ input.on_button_pressed(Button.A, on_button_pressed_a)
 
 # transmit your ID to the transmitter
 def on_button_pressed_b():
+    global myID
     radio.send_number(myID)
 input.on_button_pressed(Button.B, on_button_pressed_b)
 
