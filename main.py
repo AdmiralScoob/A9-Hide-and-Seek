@@ -12,7 +12,7 @@ showNum = False         # this flag with be true when displaying the signal stre
 def on_received_number(receivedNumber):
     global hasSignal, signalStrength, wasFound
     # the transmitter will send a 0 every 500ms
-    if radio.received_number == 0:
+    if receivedNumber == 0:
         hasSignal = True
         signalStrength = radio.received_packet(RadioPacketProperty.SIGNAL_STRENGTH)
     # the transmitter will echo back your ID when it records it as found
