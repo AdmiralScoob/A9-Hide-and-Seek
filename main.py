@@ -49,7 +49,7 @@ def on_every_interval():
         hasSignal = False
     else:
         signalStrength = -999
-    microbit.loops.every_interval(1000, on_every_interval)
+microbit.loops.every_interval(1000, on_every_interval)
 
 def on_forever():
     microbit.DrawScreen()
