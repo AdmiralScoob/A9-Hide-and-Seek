@@ -1,4 +1,4 @@
-# import microbit
+import microbit
 
 radio.set_group(1)      # the radio frequency we will be using, leave on 1
 myID = 4               # The ID # given to you by the teacher
